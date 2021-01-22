@@ -1,6 +1,10 @@
 use std::result::Result;
 use r2d2;
 
+pub mod arangors {
+    pub use arangors::*;
+}
+
 #[derive(Clone, Debug)]
 pub struct ArangoDBConnectionManager {
     url: String,
