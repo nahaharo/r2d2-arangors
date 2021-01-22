@@ -12,4 +12,4 @@ edition = "2018"
 [dependencies]
 arangors = { git="https://github.com/inzanez/arangors", branch = "master" }
 failure = "0.1.6"
-r2d2 = "0.8.8"
+r2d2 = "0.8"
