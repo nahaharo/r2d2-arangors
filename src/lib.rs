@@ -2,6 +2,10 @@
 
 pub mod pool;
 
+pub mod arangors {
+    pub use arangors::*;
+}
+
 
 #[cfg(test)]
 mod tests {
